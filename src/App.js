@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
-import movies from './movies';
 
-console.log(movies);
+import MovieList from './MovieList';
+
+
 
 function App() {
+  
   return (
     <div className="container">
-      <h1>Film Listesi</h1>
-      <div>{/* TODO: yapmis oldugumuz componenti buraya ekleyelim */}</div>
+      <h1 className="text-center">Film Listesi</h1>
+      <MovieList/>
     </div>
   );
 }
